@@ -6,3 +6,6 @@ def merge(listA, listB):
         if listA[a] < listB[b]:
               newlist.append(listA[a])
             a += 1
+              else:
+            newlist.append(listB[b])
+            b += 1
