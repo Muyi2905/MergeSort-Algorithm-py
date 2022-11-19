@@ -16,3 +16,6 @@ def merge(listA, listB):
         newlist.append(listB[b])
         b += 1
     return newlist
+def merge_sort(input_list):
+    if len(input_list) <= 1:
+        return input_list
