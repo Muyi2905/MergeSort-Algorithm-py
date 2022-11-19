@@ -24,3 +24,7 @@ def merge_sort(input_list):
         left = merge_sort(input_list[:mid])
         right = merge_sort(input_list[mid:])
         newlist = merge(left, right)
+         return newlist
+
+a = [56, 89, 45, 34, 90, 32, 20, 67, 43]
+print(merge_sort(a))
