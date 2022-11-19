@@ -19,3 +19,8 @@ def merge(listA, listB):
 def merge_sort(input_list):
     if len(input_list) <= 1:
         return input_list
+         else:
+        mid = len(input_list) // 2
+        left = merge_sort(input_list[:mid])
+        right = merge_sort(input_list[mid:])
+        newlist = merge(left, right)
