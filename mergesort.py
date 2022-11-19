@@ -12,3 +12,7 @@ def merge(listA, listB):
               while a < len(listA):
         newlist.append(listA[a])
         a += 1
+         while b < len(listB):
+        newlist.append(listB[b])
+        b += 1
+    return newlist
